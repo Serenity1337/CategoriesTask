@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  .profile {
+    box-sizing: border-box;
+    border: 1px solid #111;
+    margin: 10px;
+    display: inline-block;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    .categoryHeading {
+      .subCategory {
+        display: block;
+        font-size: 16px;
+      }
+    }
+    .buttonsContainer {
+      width: 100%;
+    }
+    .categoryHeading {
+      text-align: center;
+      font-size: 24px;
+    }
+    .categoryPrice {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  .profileDescendants {
+    display: flex;
+  }
+}

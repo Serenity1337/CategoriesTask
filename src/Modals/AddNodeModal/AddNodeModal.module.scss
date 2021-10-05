@@ -1,0 +1,53 @@
+.formContainer {
+  background-color: #111;
+  opacity: 0.9;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .addNodeModalForm {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    opacity: 1;
+    padding-left: 200px;
+    input {
+      display: block;
+      margin: 0px 0px 10px 0px;
+      padding: 10px;
+      border-radius: 5px;
+      width: 80%;
+      opacity: 1;
+    }
+  }
+  .btnContainer {
+    // display: flex;
+    // justify-content: space-between;
+    // margin-top: 10px;
+    // width: 86%;
+    // .saveBtn,
+    // .cancelBtn {
+    //   width: 45%;
+    //   padding: 5px 0px;
+    //   color: #fff;
+    //   background: 0;
+    //   cursor: pointer;
+    // }
+    // .saveBtn {
+    //   border: 1px solid green;
+    // }
+    // .cancelBtn {
+    //   border: 1px solid red;
+    // }
+    // .saveBtn:hover {
+    //   background-color: green;
+    // }
+    // .cancelBtn:hover {
+    //   background-color: red;
+    // }
+  }
+}
